@@ -1,0 +1,23 @@
+{
+  "name": "apollo-link-local-schema",
+  "version": "1.0.0",
+  "description": "Allows you to use a local graphQL schema with apollo2",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Matt Labrum",
+  "license": "ISC",
+  "peerDependencies": {
+    "apollo-client": "> 2.0.0",
+    "apollo-link": "> 1.0.0",
+    "graphql": "> 0.1.0"
+  },
+  "devDependencies": {
+    "apollo-cache-inmemory": "^1.1.1",
+    "apollo-client": "^2.0.3",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "jest": "^21.2.1"
+  }
+}
